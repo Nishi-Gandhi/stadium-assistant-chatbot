@@ -1,5 +1,3 @@
-openai
+transformers
 streamlit
-httpx
-httpcore
 json
