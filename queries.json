@@ -1,0 +1,150 @@
+[
+    {
+        "query": "food",
+        "response": "You can find a variety of food options at the concession stands located throughout the stadium."
+    },
+    {
+        "query": "parking",
+        "response": "Parking is available in the designated parking lots surrounding the stadium. Follow the signs for parking entrances."
+    },
+    {
+        "query": "seating",
+        "response": "Seating is available on a first-come, first-served basis. You can find seats in your designated section indicated on your ticket."
+    },
+    {
+        "query": "ticket",
+        "response": "Ticket booths are located near each entrance of the stadium. You can purchase tickets on-site or online before the event."
+    },
+    {
+        "query": "entrance",
+        "response": "There are multiple entrances to the stadium, each located on different sides. Please use the entrance closest to your seating section."
+    },
+    {
+        "query": "wifi",
+        "response": "Complimentary Wi-Fi is available throughout the stadium. Connect to the 'Stadium-WiFi' network to access the internet."
+    },
+    {
+        "query": "security",
+        "response": "Stadium security personnel are stationed at various checkpoints to ensure the safety and security of all attendees."
+    },
+    {
+        "query": "lost and found",
+        "response": "If you've lost something during the event, please visit the guest services desk located near the main entrance to inquire about lost items."
+    },
+    {
+        "query": "merchandise",
+        "response": "Official team merchandise is available for purchase at the souvenir shops located near each entrance of the stadium."
+    },
+    {
+        "query": "ATM",
+        "response": "ATM machines are located near the concession stands for your convenience. Look for the 'ATM' signs."
+    },
+    {
+        "query": "elevator",
+        "response": "Elevators are available for guests with mobility needs. They are located near the main entrance and are clearly marked."
+    },
+    {
+        "query": "escalator",
+        "response": "Escalators are available for guests to access different levels of the stadium. Please use them safely and responsibly."
+    },
+    {
+        "query": "first aid",
+        "response": "If you require medical assistance, please notify the nearest stadium staff member or proceed to the first aid station located near Section A."
+    },
+    {
+        "query": "exit",
+        "response": "Exits are located at various points throughout the stadium. Please take note of the nearest exit to your seating section in case of emergencies."
+    },
+    {
+        "query": "handicap accessibility",
+        "response": "The stadium is wheelchair accessible, with ramps and designated seating areas available for guests with disabilities."
+    },
+    {
+        "query": "lost child",
+        "response": "If you become separated from your child during the event, please notify the nearest stadium staff member or visit the guest services desk for assistance."
+    },
+    {
+        "query": "public transportation",
+        "response": "Public transportation options, including buses and trains, provide convenient access to the stadium. Check the schedule for routes and timings."
+    },
+    {
+        "query": "smoking area",
+        "response": "Smoking is prohibited inside the stadium. Designated smoking areas are available outside the stadium gates."
+    },
+    {
+        "query": "alcohol policy",
+        "response": "Alcoholic beverages are available for purchase at designated concession stands. Please consume alcohol responsibly and adhere to stadium policies."
+    },
+    {
+        "query": "bag policy",
+        "response": "Bags larger than a certain size are not permitted inside the stadium. Please review the bag policy before arriving to ensure compliance."
+    },
+    {
+        "query": "child ticket policy",
+        "response": "Children under a certain age may enter the stadium for free if accompanied by a paying adult. Please check the ticket policy for details."
+    },
+    {
+        "query": "family-friendly activities",
+        "response": "Family-friendly activities, such as face painting and interactive games, are available in the family fun zone located near Section B."
+    },
+    {
+        "query": "lost ticket",
+        "response": "If you've lost your ticket, please visit the ticket booth with your identification for assistance."
+    },
+    {
+        "query": "pet policy",
+        "response": "Pets are not allowed inside the stadium, with the exception of service animals. Please leave your pets at home."
+    },
+    {
+        "query": "stroller policy",
+        "response": "Strollers are allowed inside the stadium but must be collapsed and stored under your seat during the event."
+    },
+    {
+        "query": "weather policy",
+        "response": "In case of inclement weather, updates will be provided over the stadium's public address system and on the stadium's official social media channels."
+    },
+    {
+        "query": "baby changing station",
+        "response": "Baby changing stations are available in the restrooms located throughout the stadium. Look for the 'Family Restroom' signs."
+    },
+    {
+        "query": "complaints",
+        "response": "If you have any complaints or concerns during the event, please speak to the nearest stadium staff member or visit the guest services desk."
+    },
+    {
+        "query": "lost phone",
+        "response": "If you've lost your phone during the event, please ask for assistance from stadium security or use the 'Find My Phone' feature if available."
+    },
+    {
+        "query": "emergency contact",
+        "response": "In case of emergencies, please dial 911 or notify the nearest stadium staff member for assistance."
+    },
+    {
+        "query": "ADA accommodations",
+        "response": "The stadium offers ADA accommodations, including accessible seating and restrooms, to ensure all guests can enjoy the event comfortably."
+    },
+    {
+        "query": "bag check",
+        "response": "Bag checks may be conducted at the stadium entrance for security purposes. Please cooperate with stadium personnel during the screening process."
+    },
+    {
+        "query": "food allergies",
+        "response": "If you have food allergies or dietary restrictions, please inform the concession staff, who can provide information about allergen-free options."
+    },
+    {
+        "query": "lost and found items",
+        "response": "Lost and found items are collected and stored at the guest services desk. Please inquire there if you've misplaced any belongings."
+    },
+    {
+        "query": "event schedule",
+        "response": "The event schedule, including game times and entertainment lineup, can be found on the stadium's official website or in the event program."
+    },
+    {
+        "query": "disabled seating",
+        "response": "Accessible seating is available for guests with disabilities. Please contact the ticket office in advance to reserve accessible seating."
+    },
+    {
+        "query": "accessible parking",
+        "response": "Designated accessible parking spaces are available in the stadium parking lots. A valid disability parking permit is required."
+    }
+]
