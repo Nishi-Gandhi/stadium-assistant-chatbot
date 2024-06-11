@@ -8,7 +8,7 @@ This project is a chatbot designed to assist stadium visitors with queries relat
 - Ticket purchasing and availability
 - Stadium facilities (food, restrooms, first aid, etc.)
 - Directions within the stadium
-- Real-time updates on ongoing games
+
 
 ## Getting Started
 
