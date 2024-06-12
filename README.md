@@ -25,5 +25,5 @@ The Stadium Assistant Chatbot allows users to ask questions about different aspe
 
    ```bash
    git clone https://github.com/Nishi-Gandhi/stadium-assistant-chatbot.git
-pip install -r requirements.txt
+pip install -r requirement.txt
 streamlit run app.py
