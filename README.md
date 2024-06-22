@@ -71,3 +71,4 @@ Start the Streamlit application:
 ```sh
 streamlit run app.py
 
+## Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501).
