@@ -33,3 +33,41 @@ Make sure you have the following installed:
    ```sh
    git clone https://github.com/Nishi-Gandhi/stadium-assistant-chatbot.git
    cd stadium-assistant-chatbot
+
+2. Create a virtual environment:
+
+   ```sh
+   python -m venv venv
+
+3. Activate the virtual environment:
+
+   - On Windows:
+     ```sh
+     .\venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```sh
+     source venv/bin/activate
+     ```
+
+4. Install the required packages:
+
+   ```sh
+   pip install -r requirements.txt
+
+## Setting Up Llama3
+
+Follow the steps mentioned [here](https://github.com/ollama/ollama?tab=readme-ov-file) to download a local instance of Ollama.
+
+Start your local instance of the LLM service using the Llama3 model. Refer to the specific documentation of the service for setup instructions. Example command to start the service:
+
+  ```sh
+  ollama serve --model llama3
+
+## Running the Chatbot
+
+Start the Streamlit application:
+
+```sh
+streamlit run app.py
+
