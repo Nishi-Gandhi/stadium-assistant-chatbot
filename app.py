@@ -1,11 +1,9 @@
 import streamlit as st
-from transformers import pipeline, set_seed
+# from transformers import pipeline, set_seed
 import json
+import ollama
 
-# Initialize the Llama3 model
-# Make sure to replace 'llama3' with the correct identifier for your Llama3 model
-llama3_model = pipeline('text-generation', model='llama3')
-set_seed(42)  # for reproducibility
+
 
 st.title("Stadium Assistant Chatbot")
 
@@ -38,13 +36,33 @@ if user_query:
         answer = "The washrooms are located on the east and west ends of the stadium, near the main entrances."
     else:
         predefined_response = generate_response(user_query)
-        if predefined_response:
+        if not predefined_response:
             answer = predefined_response
         else:
             try:
-                response = llama3_model(user_query, max_length=150, num_return_sequences=1)[0]['generated_text'].strip()
-                answer = filter_response(response, user_query)
+                # print('here')
+                m = input('Which model do you want to use?\n\n 1. llama3 \n 2. Gemma:2B\n')
+                if m=='1':             
+                    # response =  llama3_model(user_query, max_length=150, num_return_sequences=1)[0]['generated_text'].strip()
+                    response = ollama.chat('llama3', messages = [
+                        {'role':'user',
+                        'content': user_query}
+                    ])
+                    response = response['message']['content']
+                elif m=='2':
+                    # response = bert_model(user_query, max_length = 150, num_return_sequences = 1)[0]['generated_text'].strip()
+                    response = ollama.chat('gemma:2b', messages = [
+                        {'role':'user',
+                        'content': user_query}
+                    ])
+                    response = response['message']['content']
+                else:
+                    raise(ValueError('Model not found!'))
+                
+                # answer = filter_response(response, user_query)
+                answer = response
             except Exception as e:
                 answer = "An error occurred: {}".format(e)
 
     st.write(answer)
+
